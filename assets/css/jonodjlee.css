@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Widescreen Ex Bold";
+    src: url("../fonts/Widescreen-Ex-Bold.ttf") format("truetype");
+}
+
+.texth {
+    font-family: 'Widescreen Ex Bold', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        display: none !important;
+    }
+}
